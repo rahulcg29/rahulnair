@@ -1,0 +1,202 @@
+{
+  "users": {
+    "rahul": {
+      "name": "Rahul",
+      "password": "password123",
+      "username": "rahul",
+      "account_number": "1234567890",
+      "balance": 15750.50,
+      "account_type": "Savings",
+      "contact": "rahul@example.com",
+      "address": "12 Gandhi Road, Coimbatore"
+    },
+    "cravin": {
+      "name": "Cravin",
+      "password": "mypassword",
+      "username": "cravin",
+      "account_number": "0987654321",
+      "balance": 8320.75,
+      "account_type": "Checking",
+      "contact": "cravin@example.com",
+      "address": "34 Nehru Street, Coimbatore"
+    }
+  },
+  "bank_info": {
+    "name": "CGBank",
+    "tagline": "Coimbatore Trusted Banking Partner",
+    "address": "174/2 Avinasi road, Annai statue, Coimbatore-641029",
+    "contact": "+91-63820-74060",
+    "email": "Cgbankcbe@gmail.com",
+    "helpline": "1800-123-4506",
+    "branches": [
+      {
+        "name": "Main Branch",
+        "address": "174/2 Avinasi Road, Annai Statue, Coimbatore-641029",
+        "timings": "Mon-Fri: 9AM-4PM, Sat: 9AM-1PM"
+      },
+      {
+        "name": "Gandhipuram Branch",
+        "address": "45 Nehru Street, Gandhipuram, Coimbatore-641012",
+        "timings": "Mon-Fri: 9AM-4PM, Sat: 9AM-1PM"
+      },
+      {
+        "name": "RS Puram Branch",
+        "address": "12 Race Course Road, RS Puram, Coimbatore-641002",
+        "timings": "Mon-Fri: 9AM-4PM, Sat: 9AM-1PM"
+      },
+      {
+        "name": "Peelamedu Branch",
+        "address": "34 Kamaraj Road, Peelamedu, Coimbatore-641004",
+        "timings": "Mon-Fri: 9AM-4PM, Sat: 9AM-1PM"
+      }
+    ],
+    "services": [
+      "Savings Accounts",
+      "Current Accounts",
+      "Fixed Deposits",
+      "Recurring Deposits",
+      "Personal Loans",
+      "Home Loans",
+      "Car Loans",
+      "Credit Cards",
+      "Debit Cards",
+      "Net Banking",
+      "Mobile Banking",
+      "Insurance Products",
+      "Investment Services"
+    ]
+  },
+  "loan_products": {
+    "personal_loan": {
+      "name": "Personal Loan",
+      "amount": "Up to ₹10 lakhs",
+      "interest": "10.5% - 15% p.a.",
+      "tenure": "Up to 5 years"
+    },
+    "home_loan": {
+      "name": "Home Loan",
+      "amount": "Up to ₹1 crore",
+      "interest": "8.4% - 9.5% p.a.",
+      "tenure": "Up to 20 years"
+    },
+    "car_loan": {
+      "name": "Car Loan",
+      "amount": "Up to ₹30 lakhs",
+      "interest": "8.75% - 10.5% p.a.",
+      "tenure": "Up to 7 years"
+    },
+    "education_loan": {
+      "name": "Education Loan",
+      "amount": "Up to ₹20 lakhs",
+      "interest": "9.5% - 11% p.a.",
+      "tenure": "Up to 10 years"
+    }
+  },
+  "government_schemes": {
+    "modi_scheme": {
+      "name": "Modi Scheme",
+      "benefits": [
+        "Low-interest loans for agricultural activities",
+        "Subsidies on fertilizers and seeds",
+        "Training programs for modern farming techniques",
+        "Insurance coverage for crops"
+      ],
+      "eligibility": "All farmers in Coimbatore district",
+      "application": "Visit any CGBank branch with your farmer ID and land documents"
+    },
+    "pm_farmer_scheme": {
+      "name": "PM Farmer Scheme",
+      "benefits": [
+        "Direct cash transfers to eligible farmers",
+        "Assistance for purchasing seeds and equipment",
+        "Support for crop insurance",
+        "Annual financial assistance of ₹6,000"
+      ],
+      "eligibility": "Small and marginal farmers with land holdings up to 2 hectares",
+      "application": "Through CGBank's agricultural loan department"
+    },
+    "thangamagal_scheme": {
+      "name": "Thangamagal Scheme",
+      "benefits": [
+        "Financial support for women entrepreneurs",
+        "Self-help group formation assistance",
+        "Business development training",
+        "Low-interest loans for women-owned businesses"
+      ],
+      "eligibility": "Women aged 18-60 years",
+      "application": "Visit any CGBank branch with ID proof and business plan"
+    }
+  },
+  "bot_responses": {
+    "greetings": [
+      "Hello! I'm Rexa, your personal banking assistant at CGBank. How can I help you today?",
+      "Welcome to CGBank! I'm Rexa, here to assist you with all your banking needs.",
+      "Hi there! I'm Rexa, your intelligent banking assistant. What can I do for you?"
+    ],
+    "balance_inquiry": [
+      "Your current account balance is ₹{balance:,.2f}.",
+      "Let me check your account balance for you.",
+      "Retrieving your account balance..."
+    ],
+    "transaction_history": [
+      "I'll show you your recent transaction history.",
+      "Let me pull up your transaction records.",
+      "Retrieving your transaction history..."
+    ],
+    "fund_transfer": [
+      "I can help you transfer money. Please provide the recipient details.",
+      "Let me assist you with fund transfer.",
+      "I'll guide you through the money transfer process."
+    ],
+    "bill_payment": [
+      "I can help you pay your bills. Which bill would you like to pay?",
+      "Let me assist you with bill payment.",
+      "I'll help you process your bill payment."
+    ],
+    "thanks": [
+      "You're welcome! Is there anything else I can help you with?",
+      "Happy to help! Let me know if you need anything else.",
+      "Glad I could assist you! Anything else I can do for you?"
+    ]
+  },
+  "bills": [
+    {
+      "name": "WATER BILL",
+      "amount": 1156.78,
+      "due": "2025-06-25",
+      "status": "Due Soon"
+    },
+    {
+      "name": "Airtel Recharge",
+      "amount": 328.99,
+      "due": "2025-06-28",
+      "status": "Upcoming"
+    },
+    {
+      "name": "LIC HOUSING/FINANCE",
+      "amount": 17450.50,
+      "due": "2025-07-01",
+      "status": "Upcoming"
+    }
+  ],
+  "spending_categories": [
+    {"name": "Food", "amount": 450},
+    {"name": "Travel", "amount": 320},
+    {"name": "Movie", "amount": 180},
+    {"name": "Bills", "amount": 890},
+    {"name": "Shopping", "amount": 260},
+    {"name": "Healthcare", "amount": 120}
+  ],
+  "transactions_history": [
+    {"name": "MEESHO BILL", "amt": 860.85},
+    {"name": "Rahul transfer", "amt": 334.63},
+    {"name": "car credit", "amt": 489.84},
+    {"name": "salary credit", "amt": 627.62},
+    {"name": "HDB/FINANCE", "amt": 297.50},
+    {"name": "Rahul transfer", "amt": 991.41},
+    {"name": "MEESHO BILL", "amt": 199.21},
+    {"name": "CAR Credit", "amt": 703.88},
+    {"name": "HDB/FINANCE", "amt": 68.63}
+  ]
+}
+ 
